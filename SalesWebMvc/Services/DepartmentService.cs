@@ -19,5 +19,10 @@ namespace SalesWebMvc.Services
         {
             return _context.Departament.OrderBy(x => x.Name).ToList();
         }
+
+        internal void Remove(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
